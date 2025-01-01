@@ -13,6 +13,6 @@ document.getElementById('submitBtn').addEventListener('click', function() {
         // Change the title to "Happy Birthday!"
         document.getElementById('title').innerText = "Happy Birthday Pegah!";
     } else {
-        alert("Incorrect! Try again.");
+        alert("Incorrect! It is hiß bash!");
     }
 });
