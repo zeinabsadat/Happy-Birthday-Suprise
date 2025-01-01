@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.html, body{
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    margin: 0px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#title{
+    margin: 24px 0px;
+    text-align: center;
+}
+.submition{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.hint{
+    margin-top: 4px;
+}
+.passcode{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 16px;
+    width: 100%;
+}
+.font{
+    font-family: RobotoRegular, OpenSans, sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+}
+.hiß{
+    line-height: 24px;
+    border-radius: 8px;
+    width: 100%;
+    padding: 0 16px;
+}
+.hiß:hover {
+    border-color: #ffafcc; /* Change border color on hover */
+    background-color: #fce4ec; /* Change background color on hover */
+    outline: none; /* Remove the outline (optional) */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+.btn{
+    padding: 6px 12px;
+    margin-left: 8px;
+    border-radius: 8px;
+    background-color: #ffafcc;
+    color: #333333;
+    line-height: 24px;
+    text-align: center; /* Optional for centering text */
+    border: 1px solid white; 
+    cursor: pointer; /* Add pointer cursor for better UX */
+    white-space: nowrap;
+}
+.btn:hover{
+    background-color: #ff0054;
+    color: whitesmoke;
+}
+.twoPigs{
+    width: 100%;
+    height: auto;
+    align-self: center;
+    margin-bottom: 12px;
+}
+#celebration{
+    background-image: url("Images/party.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+    position: absolute;
+    top: 0%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media only screen and (min-width: 599px) {
+    .twoPigs{
+        width: 500px;
+        height: auto;
+    } 
+}
